@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="news">News</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="example">Mercedes-Bens and Laureus broadening their worldwide involvement</string>
+    <string name="search">Search</string>
+    <string name="stories">Stories</string>
+    <string name="video">Video</string>
+    <string name="favourites">Favourites</string>
+    <string name="menu">menu</string>
+</resources>
