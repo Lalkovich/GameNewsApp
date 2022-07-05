@@ -19,11 +19,10 @@ class NewsPagingSource (private val newsApi:NewsApi):PagingSource<Int,NewsRespon
         return try {
             val position = params.key ?: 1
             val response = newsApi.getNews(position)
-            val news = response.news
             LoadResult.Page(
-                data = news,
+                data = response,
                 prevKey = if(position == 1) null else position - 1,
-                nextKey = if (news.isEmpty()) null else position + 1
+                nextKey = if (response.isEmpty()) null else position + 1
             )
         }catch (e:IOException){
             LoadResult.Error(e)

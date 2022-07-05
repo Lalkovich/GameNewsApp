@@ -19,6 +19,4 @@ class NewsApiImpl (
         ),
         pagingSourceFactory = {newsPagingSource}
     ).liveData
-
-
 }

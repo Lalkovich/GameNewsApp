@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/GameNewsApp/app/src/main/res/layout/fragment_game_news.xml" value="0.1890625" />
+        <entry key="..\:/Android/GameNewsApp/app/src/main/res/layout/rv_item.xml" value="0.340625" />
         <entry key="..\:/Projects/TestApp/app/src/main/res/drawable/ic_menu.xml" value="0.1" />
         <entry key="..\:/Projects/TestApp/app/src/main/res/layout/activity_main.xml" value="0.11574074074074074" />
         <entry key="..\:/Projects/TestApp/app/src/main/res/layout/fragment_game_news.xml" value="0.14814814814814814" />
