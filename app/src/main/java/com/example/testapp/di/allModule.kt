@@ -9,7 +9,7 @@ import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 
 val allModule = module {
-    single<NewsRepository>{NewsApiImpl(get())}
+    single<NewsRepository>{NewsApiImpl(get(),get())}
     viewModel{ NewsViewModel(get()) }
     single{NewsPagingSource(get())}
     single{ NewsUseCase(get()) }

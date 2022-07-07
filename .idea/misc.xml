@@ -5,11 +5,24 @@
       <map>
         <entry key="..\:/Android/GameNewsApp/app/src/main/res/layout/fragment_game_news.xml" value="0.1890625" />
         <entry key="..\:/Android/GameNewsApp/app/src/main/res/layout/rv_item.xml" value="0.340625" />
+        <entry key="..\:/Projects/GameNewsApp/app/src/main/res/drawable/gradient.xml" value="0.229" />
+        <entry key="..\:/Projects/GameNewsApp/app/src/main/res/layout/activity_main.xml" value="0.16983695652173914" />
+        <entry key="..\:/Projects/GameNewsApp/app/src/main/res/layout/doll_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/GameNewsApp/app/src/main/res/layout/fragment_all_news.xml" value="0.1" />
+        <entry key="..\:/Projects/GameNewsApp/app/src/main/res/layout/fragment_game_news.xml" value="0.16077898550724637" />
+        <entry key="..\:/Projects/GameNewsApp/app/src/main/res/layout/fragment_nested_game_news.xml" value="0.22202001819836215" />
+        <entry key="..\:/Projects/GameNewsApp/app/src/main/res/layout/nested_game_news.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/GameNewsApp/app/src/main/res/layout/rv_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Projects/GameNewsApp/app/src/main/res/layout/view_pager_item.xml" value="0.17074275362318841" />
         <entry key="..\:/Projects/TestApp/app/src/main/res/drawable/ic_menu.xml" value="0.1" />
         <entry key="..\:/Projects/TestApp/app/src/main/res/layout/activity_main.xml" value="0.11574074074074074" />
         <entry key="..\:/Projects/TestApp/app/src/main/res/layout/fragment_game_news.xml" value="0.14814814814814814" />
         <entry key="..\:/Projects/TestApp/app/src/main/res/layout/rv_item.xml" value="0.12335359675785208" />
         <entry key="..\:/Projects/TestApp/app/src/main/res/menu/menu_news.xml" value="0.1" />
+        <entry key="..\:/Users/dimay/Downloads/Telegram Desktop/GameNewsApp/app/src/main/res/drawable/background_top_text.xml" value="0.1755" />
+        <entry key="..\:/Users/dimay/Downloads/Telegram Desktop/GameNewsApp/app/src/main/res/layout/fragment_game_news.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/dimay/Downloads/Telegram Desktop/GameNewsApp/app/src/main/res/layout/rv_item.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/dimay/Downloads/Telegram Desktop/GameNewsApp/app/src/main/res/layout/view_pager_item.xml" value="0.1" />
       </map>
     </option>
   </component>

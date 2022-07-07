@@ -8,4 +8,8 @@
     <string name="video">Video</string>
     <string name="favourites">Favourites</string>
     <string name="menu">menu</string>
+    <string name="hot">HOT</string>
+    <string name="top">TOP</string>
+    <string name="link">Emercedesbenz.com</string>
+    <string name="hours">X hours ago</string>
 </resources>

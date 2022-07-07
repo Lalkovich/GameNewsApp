@@ -26,7 +26,9 @@ class NewsPagingAdapter :
                 time.text = news.time
 
                 if (news.img.isNullOrEmpty()) {
-                    image.updateVisibility(false)
+                    Glide.with(itemView.context)
+                        .load(R.drawable.placeholder)
+                        .into(image)
                 } else {
                     Glide.with(itemView.context)
                         .load(news.img)

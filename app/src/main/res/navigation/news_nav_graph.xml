@@ -2,12 +2,19 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graph"
-    app:startDestination="@id/newsFragment">
+    android:id="@+id/news_nav_graph"
+    app:startDestination="@id/allNewsFragment">
 
+    <fragment
+        android:id="@+id/allNewsFragment"
+        android:name="com.example.testapp.presentation.all_news_fragment.AllNewsFragment"
+        android:label="AllNewsFragment"
+        tools:layout="@layout/fragment_all_news"/>
     <fragment
         android:id="@+id/newsFragment"
         android:name="com.example.testapp.presentation.news.NewsFragment"
         android:label="NewsFragment"
         tools:layout="@layout/fragment_game_news"/>
+
+
 </navigation>
