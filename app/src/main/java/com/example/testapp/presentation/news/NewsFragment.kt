@@ -23,6 +23,7 @@ class NewsFragment : Fragment(R.layout.fragment_game_news) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.newsList.adapter = adapter
+        binding.newsList.setHasFixedSize(false)
         binding.topNews.adapter = vpAdapter
         initObserves()
     }

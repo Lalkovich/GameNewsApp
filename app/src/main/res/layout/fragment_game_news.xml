@@ -4,26 +4,40 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <ScrollView
+        android:id="@+id/nested"
+        android:fillViewport="true"
+        android:isScrollContainer="true"
+        android:measureAllChildren="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
     android:background="#EDEDED">
 
-    <androidx.viewpager2.widget.ViewPager2
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/top_news"
+        tools:listitem="@layout/view_pager_item"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_width="match_parent"
-        android:layout_height="0dp"/>
+        android:layout_height="wrap_content"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/news_list"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="0dp"
         tools:listitem="@layout/rv_item"
+        android:nestedScrollingEnabled="true"
+        android:overScrollMode="never"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/top_news"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
 </layout>

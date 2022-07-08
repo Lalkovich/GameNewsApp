@@ -5,7 +5,9 @@
       <map>
         <entry key="..\:/Android/GameNewsApp/app/src/main/res/layout/fragment_game_news.xml" value="0.1890625" />
         <entry key="..\:/Android/GameNewsApp/app/src/main/res/layout/rv_item.xml" value="0.340625" />
+        <entry key="..\:/Projects/GameNewsApp/app/src/main/res/drawable/background_top_text.xml" value="0.2245" />
         <entry key="..\:/Projects/GameNewsApp/app/src/main/res/drawable/gradient.xml" value="0.229" />
+        <entry key="..\:/Projects/GameNewsApp/app/src/main/res/drawable/top_background.xml" value="0.2245" />
         <entry key="..\:/Projects/GameNewsApp/app/src/main/res/layout/activity_main.xml" value="0.16983695652173914" />
         <entry key="..\:/Projects/GameNewsApp/app/src/main/res/layout/doll_fragment.xml" value="0.25416666666666665" />
         <entry key="..\:/Projects/GameNewsApp/app/src/main/res/layout/fragment_all_news.xml" value="0.1" />

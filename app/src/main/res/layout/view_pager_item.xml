@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -21,26 +20,31 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/hot1"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="5dp"
-            android:src="@drawable/fire"
-            app:layout_constraintEnd_toStartOf="@id/hot_text"
-            app:layout_constraintTop_toTopOf="parent" />
+<!--        <ImageView-->
+<!--            android:id="@+id/hot1"-->
+<!--            android:layout_width="20dp"-->
+<!--            android:layout_height="20dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginEnd="5dp"-->
+<!--            android:src="@drawable/fire"-->
+<!--            app:layout_constraintEnd_toStartOf="@id/hot_text"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
 
         <TextView
             android:id="@+id/hot_text"
             android:textSize="16sp"
             android:textColor="@color/black"
+            android:padding="5dp"
+            android:drawablePadding="5dp"
+            android:background="@drawable/background_top_text"
             android:layout_marginTop="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/top" />
+            android:text="@string/top"
+            android:drawableLeft="@drawable/fire1"
+            />
 
         <TextView
             android:id="@+id/title"
@@ -49,7 +53,7 @@
             android:paddingStart="24dp"
             android:paddingTop="10dp"
             android:text="@string/example"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -75,6 +79,7 @@
             android:layout_height="wrap_content"
             android:text="@string/hours"
             android:textSize="16sp"
+            android:textColor="@color/white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.75"
